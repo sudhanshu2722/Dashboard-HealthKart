@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Streamlit cache and temp
+.streamlit/
+
+# Output artifacts
+*.csv
+*.xlsx
+*.pdf
+*.html
+
+# Dataset or input folders (optional)
+data/
+input/
+uploads/
+
+# Custom folders
+__marimo__/
+logs/
+output/
+reports/
+*.log
+
+# If you're using any local secrets or credentials
+secrets.env
+config.yaml
+credentials.json
